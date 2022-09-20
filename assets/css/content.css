@@ -1,0 +1,46 @@
+/*new font for the main header */
+@font-face {
+    font-family: 'Cy Grotesk Grand Dark';
+    src: url('../fonts/CyGrotesk-GrandDark.woff2') format('woff2'),
+    url('../fonts/CyGrotesk-GrandDark.woff') format('woff'),
+    url('../fonts/CyGrotesk-GrandDark.eot');
+url('../fonts/CyGrotesk-GrandDark.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CyGrotesk-GrandDark.ttf') format('truetype');
+url('../fonts/CyGrotesk-GrandDark.svg#CyGrotesk-GrandDark') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.spacing {
+
+    margin-bottom: 0;
+    padding-right: 0;
+    font-weight: bold;
+
+}
+p{
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: black;
+
+}
+.main__header{
+    font-weight: bold;
+    font-family: 'Cy Grotesk Grand Dark';!important;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+
+    /*width: 60%;*/
+    /*height: auto;*/
+
+}
+.h1{
+    font-weight: bold;
+    font-family:Cy Grotesk Grand Dark;!important;
+    text-transform: uppercase;
+}

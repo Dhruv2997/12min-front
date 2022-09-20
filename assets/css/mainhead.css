@@ -1,0 +1,10 @@
+.picwish__img{
+    width : 70%;
+    height: auto;
+
+}
+.picwish__div{
+   width: 100%;
+    height: auto;
+    right: -40%;!important;
+}
